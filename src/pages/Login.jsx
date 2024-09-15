@@ -9,11 +9,11 @@ function Login() {
     const username = e.target.elements.username.value;
     const password = e.target.elements.password.value;
 
-    if (username === "admin" && password === "admin") {
+    // if (username === "admin" && password === "admin") {
       navigate('/home');
-    } else {
-      alert('Invalid Credentials');
-    }
+    // } else {
+    //   alert('Invalid Credentials');
+    // }
   };
 
   return (
